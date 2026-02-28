@@ -1,0 +1,7 @@
+<!-- Put Write HTML -->
+<p class="updatesLogElement pixelify-sans">Version # 1.2</p>
+
+<p class="updatesLogElement pixelify-sans">Lorem ipsum dolor sit amet consectetur adipisicing elit. Harum possimus excepturi fuga, laborum rem beatae eveniet nobis tenetur corrupti dolorem, eum dolore quae earum ullam sit delectus. Placeat, nulla temporibus!</p>
+<iframe width="50%" height="29%" src="https://www.youtube.com/embed/HTxwOxFt5d4?si=lGmmHxux8Kmtz38y" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+<p class="updatesLogElement pixelify-sans">Lorem ipsum dolor sit amet consectetur adipisicing elit. Harum possimus excepturi fuga, laborum rem beatae eveniet nobis tenetur corrupti dolorem, eum dolore quae earum ullam sit delectus. Placeat, nulla temporibus!</p>
+<p class="updatesLogElement pixelify-sans">Lorem ipsum dolor sit amet consectetur adipisicing elit. Harum possimus excepturi fuga, laborum rem beatae eveniet nobis tenetur corrupti dolorem, eum dolore quae earum ullam sit delectus. Placeat, nulla temporibus!</p>
