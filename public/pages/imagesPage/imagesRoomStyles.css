@@ -1,0 +1,67 @@
+header {
+  animation: roygbivAnimation 8s infinite alternate;
+  padding: 1%;
+  height: 10vh;
+  position: relative;
+}
+
+#titleText {
+  margin: 0;
+  font-size: 256%;
+}
+
+#options {
+  position: absolute;
+  display: flex;
+  justify-content: center;
+  width: 64%;
+  height: 32%;
+  bottom: 16%;
+  left: 16%;
+}
+
+.optionButton {
+  margin: 8px;
+  width: 10%;
+  height: 100%;
+  cursor: pointer;
+}
+
+#imagesContainer {
+  position: relative;
+}
+
+#image {
+  padding: 16px;
+  cursor: move;
+}
+
+.draggable {
+  position: absolute;
+}
+
+/* Animations */
+
+@keyframes roygbivAnimation {
+  14% {
+    background-color: red;
+  }
+  28% {
+    background-color: orange;
+  }
+  42% {
+    background-color: yellow;
+  }
+  56% {
+    background-color: green;
+  }
+  70% {
+    background-color: blue;
+  }
+  84% {
+    background-color: indigo;
+  }
+  100% {
+    background-color: violet;
+  }
+}

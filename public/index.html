@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>FroSty1.fun</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link rel="icon" type="image/png" href="assets/images/icons/mainFavicon.png" id="favicon">
+    <link href="https://fonts.googleapis.com/css2?family=Anta&family=Caveat+Brush&family=Goldman:wght@400;700&family=Pirata+One&family=Pixelify+Sans:wght@400..700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="/css/style.css">
+    <link rel="stylesheet" href="/globalcss/styleFonts.css">
+</head>
+
+<body>
+    <header>
+        <h1 id="title">Games By FroSty</h1>
+        <h2 id="subTitle">Enjoy!</h2>
+    </header>
+    
+    <script src="/socket.io/socket.io.js"></script>
+
+    <main>
+        <div id="notificationsContainer">
+            <p id="userJoinNotification"></p>
+        </div>
+
+        <div id="onOpenUIContainer">
+            <section id="updatesLog" style="background-color: rgb(255, 199, 131);">
+                <div id="updatesLogHead">
+                    <label for="username">Username</label>
+                    <input type="text" id="usernameTextField" name="username">
+
+                    <h1 class="pirata-one-regular" style="position: absolute; left: 5%; margin: 0; margin-top: 3%;">Updates</h1>
+                    <button id="closeUpdatesLogsButton" style="position: absolute; right: 5%; margin-top: 5%;">Cool!</button>
+                </div>
+
+                <ul id="lastUpdateLogs">
+                    <li><button class="updateLogButton" data-arg1="1.1">Update V1.1</button></li>
+                    <li><button class="updateLogButton" data-arg1="1.2">Update V1.2</button></li>
+                </ul>
+
+                <div id="updatesLogsList" style="background-color: rgb(250, 217, 176);">
+                    <!-- Put Write HTML -->
+                    <p class="updatesLogElement pixelify-sans">Version # 1.1</p>
+
+                    <p class="updatesLogElement pixelify-sans">Lorem ipsum dolor sit amet consectetur adipisicing elit. Harum possimus excepturi fuga, laborum rem beatae eveniet nobis tenetur corrupti dolorem, eum dolore quae earum ullam sit delectus. Placeat, nulla temporibus!</p>
+                    <iframe class="updatesLogElement" width="50%" height="29%" style="float: left; margin: 1%;" src="https://www.youtube.com/embed/JALbemLw3G4?si=qkpBuuqiJfrY4MYS" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+                    <p class="updatesLogElement pixelify-sans">Lorem ipsum dolor sit amet consectetur adipisicing elit. Harum possimus excepturi fuga, laborum rem beatae eveniet nobis tenetur corrupti dolorem, eum dolore quae earum ullam sit delectus. Placeat, nulla temporibus!</p>
+                    <p class="updatesLogElement pixelify-sans">Lorem ipsum dolor sit amet consectetur adipisicing elit. Harum possimus excepturi fuga, laborum rem beatae eveniet nobis tenetur corrupti dolorem, eum dolore quae earum ullam sit delectus. Placeat, nulla temporibus!</p>
+                </div>
+            </section>
+        </div>
+
+        <div id="mainSectionsContainer">
+            <section id="sideItems" class="sideBar">
+                <h3 class="anta-regular sideItemsElement sideBarTitle" style="left: 75%; top: 1%; font-size: 160%; margin-top: 10%; align-items: center; width: 100%;">Side Items</h3>
+
+                <div id="sideItemsElementsHolder">
+                    <a class="sideItemsElement" style="top: 10%; width: 90%; height: 5%;" href="https://www.youtube.com/@FroStyIsCool-z5k" target="_blank" title="Visit my YouTube Channel"><img class="sideItemsImages" src="/assets/images/blinkies/youtube.gif" alt="YouTube Logo" class="youtubelogo"></img></a>
+                    <a class="sideItemsElement pixelArt" style="top: 16%; width: 90%; height: 8%;" href="https://github.com/FroSty361" target="_blank" title="Visit my GitHub profile"><img class="sideItemsImages" src="/assets/images/88x31s/github.gif" alt="GitHub Logo" class="githublogo"></a>
+                    <a class="sideItemsElement pixelArt" style="top: 22%; width: 90%; height: 8%" href="/pages/chatting/chatRoom.html" target="_blank" title="Cool Chat Room!!11!!!"><img class="sideItemsImages" src="/assets/images/88x31s/guestBook.gif" alt="Cool Chat Room"></a>
+                    <a class="sideItemsElement pixelArt" style="top: 28%; width: 90%; height: 8%" href="/pages/imagesPage/imagesRoom.html" target="_blank" title="This Sites Images"><img class="sideItemsImages" src="/assets/images/88x31s/cool-photos.png" alt="This Pages Images"></a>
+                    <a class="sideItemsElement pixelArt" style="top: 34%; width: 90%; height: 8%" href="/pages/dotfilesPage/dotfilesRoom.html" target="_blank" title="My Dotfiles"><img class="sideItemsImages" src="/assets/images/88x31s/dotfiles.gif" alt="Dotfiles"></a>
+
+                    <div class="sideItemsElement" id="webrings" style="top: 40%; width: 90%; height: 8%">
+                        <div class="marqueeWrapper">
+                            <script class="webringElement" widget-style='rainbow-dark' style="margin: 0; height: 80%;" src='https://gdt.fireye.coffee/scripts/widget.js'></script>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <section id="mainMapArea">
+                <h3 class="pirata-one-regular mainMapAreaElement" id="mainMapAreaTitle" style="font-size: 300%; margin: 0; padding: 0; top: 3%;">My Web Map</h3>
+
+                <img id="mainMap" class="mainMapAreaElement" src="/assets/images/images/map.png">
+                    <!-- Buttons -->
+                </img>
+            </section>
+
+            <section id="sideNav" class="sideBar">
+                <h3 class="anta-regular sideNavElement sideBarTitle" style="left: 55%; top: 1%; font-size: 160%; margin-top: 10%; align-items: center; width: 50%;">Side Nav</h3>
+
+                <div class="sideNavElement" id="mapLegnedContainer" name="mapLegend" style="top: 16%; width: 80%; padding: 8%;">
+                    <a class="mapLegendLink" href="/pages/imagesPage/imagesRoom.html" target="_blank"><p class="mapLegendLink pixelify-sans">Crypted</p></a>
+                    <a class="mapLegendLink" href="/pages/imagesPage/imagesRoom.html" target="_blank"><p class="mapLegendLink pixelify-sans">Gaming Bay</p></a>
+                    <a class="mapLegendLink" href="/pages/imagesPage/imagesRoom.html" target="_blank"><p class="mapLegendLink pixelify-sans">Project Paradise</p></a>
+                </div>
+
+                <div class="sideNavElement" id="otherPathsContainer" style="top: 64%; width: 80%; padding: 8%;">
+                    <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Laudantium tempore omnis sequi a. Tempora praesentium qui modi ullam doloremque non sed odit, accusantium alias earum vel amet facilis architecto minima?</p>
+                </div>
+            </section>
+        </div>
+    </main>
+
+    <script type="module" src="/js/index/main.js"></script>
+</body>
+</html>

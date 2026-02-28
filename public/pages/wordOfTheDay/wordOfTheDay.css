@@ -1,0 +1,36 @@
+body {
+    animation: backgroundColor 8s infinite alternate;
+}
+
+#wordnik-wordofday-heading {
+    font-family: com;
+}
+
+/* Animations */
+
+@keyframes backgroundColor {
+    0% {
+        background-color: #f4dfde;
+        color: #2a2433;
+    }
+    20% {
+        background-color: #d46a83;
+        color: #9e8ba4;
+    }
+    40% {
+        background-color: #854462;
+        color: #a295a7;
+    }
+    60% {
+        background-color: #a295a7;
+        color: #854462;
+    }
+    80% {
+        background-color: #9e8ba4;
+        color: #d46a83;
+    }
+    100% {
+        background-color: #2a2433;
+        color: #f4dfde;
+    }
+}
