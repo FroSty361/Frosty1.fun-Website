@@ -5,22 +5,22 @@
 # Rooms
 
 ***Main Navigation Room***
-&ensp;Map which displays different interests or projects
-&ensp;Side navigation and a map legend
-&ensp;Contains links to other media of mine
+Map which displays different interests or projects
+Side navigation and a map legend
+Contains links to other media of mine
 
 <!-- Put Image Of Map Here -->
 
 ***Chat Room***
->> A chat room to communicate with others
-&ensp;Also serves as a guestbook!
+A chat room to communicate with others
+Also serves as a guestbook!
 
 <!-- Put Image Of Chat Room Here -->
 
 ***Images Room***
- &ensp;Connects to a directory of assets used in the website and display them. Plus some others :)
- &ensp;Drag and drop the images or feel free to copy their address
- &ensp;Not only images but also
+Connects to a directory of assets used in the website and display them. Plus some others :)
+Drag and drop the images or feel free to copy their address
+Not only images but also
  - Gifs
  - Blinkies
  - 88x31s
@@ -29,7 +29,7 @@
 <!-- Put Image Of Images Room Here -->
  
  ***Dotfiles Room***
-&ensp;Shows dotfiles I have created
+Shows dotfiles I have created
 Explains the configuration for each dotfile project
 Links my github to each dotfile
 
