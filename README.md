@@ -4,7 +4,7 @@
 
 # Rooms
 
-***Main Navigation Room***
+***Main Navigation Room***\n
 &ensp;Map which displays different interests or projects
 &ensp;Side navigation and a map legend
 &ensp;Contains links to other media of mine
@@ -34,3 +34,4 @@
 &ensp;Links my github to each dotfile
 
 <!-- Put Image Of Image
+
