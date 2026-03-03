@@ -4,7 +4,7 @@
 
 # Rooms
 
-***Main Navigation Room***\n
+***Main Navigation Room***
 &ensp;Map which displays different interests or projects
 &ensp;Side navigation and a map legend
 &ensp;Contains links to other media of mine
@@ -12,7 +12,7 @@
 <!-- Put Image Of Map Here -->
 
 ***Chat Room***
-&ensp;A chat room to communicate with others
+>> A chat room to communicate with others
 &ensp;Also serves as a guestbook!
 
 <!-- Put Image Of Chat Room Here -->
@@ -30,8 +30,9 @@
  
  ***Dotfiles Room***
 &ensp;Shows dotfiles I have created
-&ensp;Explains the configuration for each dotfile project
-&ensp;Links my github to each dotfile
+Explains the configuration for each dotfile project
+Links my github to each dotfile
 
 <!-- Put Image Of Image
+
 
